@@ -1,0 +1,32 @@
+.container {
+    margin-top: 50px;
+  }
+  .mat-header-row::ng-deep {
+    background-color: black;
+  }
+  .mat-table::ng-deep {
+    border: 1px solid rgb(58, 54, 54);
+  }
+  .mat-header-row
+{
+  background-color: black;
+}
+.mat-table {
+  border: 1px solid rgb(58, 54, 54);
+}
+th {
+  text-align: center !important;
+  font-size: 17px;
+  background-color: rgb(215, 118, 48);
+  padding-bottom: 17px!important;
+
+  /* padding: 15px !important; */
+}
+td {
+  text-align: center !important;
+  padding: 10px 0px 10px 0px !important;
+}
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  padding: 18px 13px 0px 58px;
+}
+ 
